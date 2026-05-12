@@ -20,6 +20,15 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 06_JS_Identifier_Rules.js   # Identifier rules and conventions
 │   ├── 07_Identifier_Part2.js      # Naming cases (camelCase, PascalCase, etc.)
 │   ├── 08_JS_Comments.js           # Comments in JavaScript
+│   ├── 09_var_let_const.js         # Variable declarations overview
+│   ├── 10_functions.js             # Function basics
+│   ├── 11_var_explained.js         # var keyword explained
+│   ├── 12_let_people_love.js       # let keyword explained
+│   ├── 13_const_explained.js       # const keyword explained
+│   ├── 14_var_functionscope.js     # var function scope
+│   ├── 15_let_scope.js             # let block scope
+│   ├── 16_Hoisting.js              # Variable hoisting
+│   ├── 17_hoisting_function.js     # Function hoisting
 │   ├── js_identifier_rules.js      # Complete identifier examples
 │   ├── VS_Code_Keyboard_Shortcut_window.md   # VS Code shortcuts for Windows
 │   └── VS_Code_Keyboard_Shortcut_mac.md      # VS Code shortcuts for Mac
@@ -72,6 +81,13 @@ node chapter_01_Basics/01_Basics.js
   - `UPPER_SNAKE_CASE` — constants
   - `kebab-case` — invalid in JS identifiers
 - **Comments:** Single-line (`//`) and multi-line (`/* */`)
+- **Variable Declarations:**
+  - `var` — function-scoped, hoisted, redeclarable
+  - `let` — block-scoped, not hoisted (TDZ), reassignable
+  - `const` — block-scoped, not hoisted, must be initialized
+- **Scope:** Function scope vs block scope, variable leaking in loops
+- **Hoisting:** Variable hoisting (`undefined`) and function hoisting
+- **Functions:** Defining and calling reusable code blocks
 - **VS Code Shortcuts:** Complete reference for Windows and Mac
 
 ## ⌨️ VS Code Keyboard Shortcuts

@@ -30,9 +30,9 @@ function calculateTotalPrice() {
 // Every word starts with uppercase letter.
 // Used for: classes, constructors, React components, enums
 
-class UserProfile {}
-class ShoppingCart {}
-class HttpRequestHandler {}
+class UserProfile { }
+class ShoppingCart { }
+class HttpRequestHandler { }
 
 // Constructor functions (older style)
 function Person(name, age) {
@@ -133,17 +133,17 @@ const API = "https://api.example.com";
 
 class BankAccount {
     #balance = 0;              // Native private field (ES2022+)
-    
+
     constructor(ownerName) {
         this.ownerName = ownerName;      // public
         this._accountType = "checking";  // convention: intended private
     }
-    
+
     // Native private method
     #validateAmount(amount) {
         return amount > 0;
     }
-    
+
     // Convention-based private method
     _logTransaction() {
         console.log("Transaction logged");
@@ -174,13 +174,13 @@ const TAX_RATE = 0.08;               // UPPER_SNAKE_CASE - constant
 
 class ShoppingCart {                 // PascalCase - class
     #items = [];                     // #private - native private field
-    
+
     constructor(customerName) {      // camelCase - parameter
         this.customerName = customerName; // camelCase - property
         this._createdAt = new Date();     // _prefix - convention private
         this.item_count = 0;              // snake_case - valid but uncommon
     }
-    
+
     addItem(productName, price) {    // camelCase - method
         if (this.#items.length >= MAX_CART_ITEMS) {
             throw new Error("Cart is full");
@@ -188,13 +188,13 @@ class ShoppingCart {                 // PascalCase - class
         this.#items.push({ name: productName, price: price });
         this.item_count++;
     }
-    
+
     getTotalPrice() {                // camelCase - method
         let subtotal = this.#items.reduce((sum, item) => sum + item.price, 0);
         let tax = subtotal * TAX_RATE;
         return subtotal + tax;
     }
-    
+
     #validateCart() {                // #private - native private method
         return this.#items.length > 0;
     }
