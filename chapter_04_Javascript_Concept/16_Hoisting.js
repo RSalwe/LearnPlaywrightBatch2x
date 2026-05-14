@@ -8,6 +8,6 @@ console.log(message);
 // console.log(message);  --> "Hello"
 
 //var r;
-console.log(r);
+console.log(r);//The value of r will always be undefined because type of r is var hence hoisting is valid in var only
 var r = "Rupesh";
 console.log(r);
