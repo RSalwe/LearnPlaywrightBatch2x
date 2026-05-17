@@ -49,6 +49,25 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 28_Template_Literal.js         # Template literals
 │   └── 29_Backtick_single_double.js   # Backtick vs single vs double quotes
 │
+├── chapter_06_Operator/               # JavaScript Operators
+│   ├── 30_Operator.js                 # Operators overview
+│   ├── 31_Arithmetic_OP.js            # Arithmetic operators
+│   ├── 32_Modulo_OP.js                # Modulo (remainder) operator
+│   ├── 33_EXPO.js                     # Exponentiation operator
+│   ├── 34_IQ.js                       # Operator interview questions
+│   ├── 35_Comparison_OP.js            # Comparison operators
+│   ├── 36_Comparison_strict_loose.js  # Strict (===) vs loose (==) equality
+│   ├── 37_IQ_Loose_Strict.js          # Loose vs strict equality interview questions
+│   ├── 38_Confusing_Comparison.js     # Tricky comparisons with typeof section
+│   ├── 39_Logical_OP.js               # Logical operators
+│   ├── 40_String_Concati_OP.js        # String concatenation operators
+│   ├── 41_Ternary_OP.js               # Ternary operator
+│   ├── 42_Type_OP.js                  # Type-related operators
+│   ├── 43_Incre_Decre_OP.js           # Increment & decrement operators
+│   └── 44_Null_OP.js                  # Nullish coalescing operator
+│
+├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
+│
 └── README.md                          # This file
 ```
 
@@ -119,6 +138,16 @@ node chapter_01_Basics/01_Basics.js
 - **Strings:** Single quotes, double quotes, template literals (backticks)
 - **String Interpolation:** Embedding variables with `${}` inside backticks
 - **Multi-line strings** using template literals
+
+### Chapter 6: JavaScript Operators
+- **Arithmetic:** `+`, `-`, `*`, `/`, `%`, `**`
+- **Comparison:** Loose (`==`) vs strict (`===`), truthy & falsy behavior
+- **Confusing Comparisons & typeof:** Edge cases like `[] == 0`, `typeof null === "object"`, `NaN` quirks
+- **Logical:** `&&`, `||`, `!`
+- **Ternary:** Conditional expressions
+- **String Concatenation:** Coercion behavior with strings and numbers
+- **Increment/Decrement:** `++`, `--`
+- **Type & Nullish Coalescing (`??`):** typeof, nullish coalescing
 
 ## ⌨️ VS Code Keyboard Shortcuts
 
