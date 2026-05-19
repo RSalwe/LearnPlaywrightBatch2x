@@ -64,7 +64,10 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 41_Ternary_OP.js               # Ternary operator
 │   ├── 42_Type_OP.js                  # Type-related operators
 │   ├── 43_Incre_Decre_OP.js           # Increment & decrement operators
-│   └── 44_Null_OP.js                  # Nullish coalescing operator
+│   ├── 44_Null_OP.js                  # Nullish coalescing operator
+│   ├── 45_Post_Incre_OP.js            # Post increment/decrement operators
+│   ├── 46_IQ_Incre_Decre_OP.js        # Increment/decrement interview questions
+│   └── 47_IQ_Adv_Incre_Decre_OP.js    # Advanced increment/decrement interview questions
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -146,7 +149,8 @@ node chapter_01_Basics/01_Basics.js
 - **Logical:** `&&`, `||`, `!`
 - **Ternary:** Conditional expressions
 - **String Concatenation:** Coercion behavior with strings and numbers
-- **Increment/Decrement:** `++`, `--`
+- **Increment/Decrement:** `++`, `--`, post-increment/decrement behavior
+- **Increment/Decrement Interview Questions:** Common and advanced IQ patterns
 - **Type & Nullish Coalescing (`??`):** typeof, nullish coalescing
 
 ## ⌨️ VS Code Keyboard Shortcuts
