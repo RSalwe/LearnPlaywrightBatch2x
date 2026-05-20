@@ -1,0 +1,27 @@
+let number = 7;
+if (number % 2 === 0) {
+    console.log(`${number} is even number`)
+}
+else {
+    console.log(`${number} is odd number`)
+}
+
+let mark = 87
+if (mark >= 90) {
+    console.log("A grade");
+} else if (mark >= 80) {
+    console.log("B grade");
+} else if (mark >= 70) {
+    console.log("C grade");
+} else if (mark >= 60) {
+    console.log("D grade");
+} else {
+    console.log("Fail");
+}
+
+let year = 2024;
+if (year % 4 === 0) {
+    console.log("This is a year")
+} else {
+    console.log("This is not a leap year")
+}
