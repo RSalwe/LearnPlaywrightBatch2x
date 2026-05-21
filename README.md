@@ -80,7 +80,8 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 55_Only_if.js                  # Single if statement usage
 │   ├── 56_IQ_even_odd.js              # Even/odd check IQ
 │   ├── 57_Grade_Calc.js               # Grade calculator example
-│   └── 58_Leap_Year.js               # Leap year checker
+│   ├── 58_Leap_Year.js                # Leap year checker
+│   └── (20-May) TASK.js               # Practice tasks: HTTP status codes, test verdicts, build health, login lockout
 │
 ├── chapter_08_Switch Statement/       # Switch Statements
 │   ├── 59_Switch.js                   # Switch statement basics
@@ -96,8 +97,7 @@ LEARNPLAYWRIGHTBATCH2x/
 ├── chapter_09_User_Input/             # User Input Handling
 │   ├── 68_User_Input.js               # Basic user input concepts
 │   ├── 69_Node_readline.js            # Input using Node.js readline
-│   ├── 70_Prompt_Sync.js              # Synchronous prompt for input
-│   └── (20-May) TASK.js               # Practice tasks: HTTP status codes, test verdicts, build health, login lockout
+│   └── 70_Prompt_Sync.js              # Synchronous prompt for input
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -190,6 +190,12 @@ node chapter_01_Basics/01_Basics.js
 - **API Status Code Handling:** Practical example handling HTTP status codes (200, 201, 400, 401, 403, 404, 500, 502, 503, etc.)
 - **Real-world Examples:** Grade calculator, leap year checker, even/odd checks
 - **Interview Questions:** Common conditional logic IQ problems
+- **Practice Tasks (20-May):**
+  - HTTP Status Code Categorizer (200, 300, 400, 500 ranges)
+  - Test Case Pass/Fail Verdict with emoji indicators
+  - Impact Score Severity classification (Critical, High, Medium, Low)
+  - Build Health Reporter (Green, Stable, Unstable, Broken)
+  - Login Lockout after failed attempts
 
 ### Chapter 8: Switch Statements
 - **Switch Basics:** Using `switch` for multi-way branching
@@ -202,12 +208,6 @@ node chapter_01_Basics/01_Basics.js
 - **Input Concepts:** Handling user input in JavaScript
 - **Node.js readline:** Asynchronous input using `readline` module
 - **Synchronous Prompt:** Using `prompt-sync` for blocking input
-- **Practice Tasks:**
-  - HTTP Status Code Categorizer (200, 300, 400, 500 ranges)
-  - Test Case Pass/Fail Verdict with emoji indicators
-  - Impact Score Severity classification (Critical, High, Medium, Low)
-  - Build Health Reporter (Green, Stable, Unstable, Broken)
-  - Login Lockout after failed attempts
 
 ## ⌨️ VS Code Keyboard Shortcuts
 
