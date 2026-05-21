@@ -82,3 +82,17 @@ console.log(`Maximum Number between ${x}, ${y} & ${z} is: ${max_Num1}`);
 let a = 5;
 console.log(a++ + ++a - --a + a-- + ++a);
 console.log(a);
+
+console.log(0.1 + 0.2 === 0.3);//false
+
+type = typeof 1;
+console.log(type);//number
+console.log(typeof typeof 1);//string
+
+console.log(3 > 2 > 1);
+
+let x1 = 10;
+x1 &= 3;
+console.log(x1);
+
+console.log(x ??= 10);

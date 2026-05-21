@@ -9,3 +9,6 @@ console.log(null === undefined);//Strict
 
 console.log(5 != "g");//true
 console.log(5 == "g");//false
+
+console.log([] == []);//false
+console.log([] === []);//false
