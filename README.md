@@ -96,7 +96,8 @@ LEARNPLAYWRIGHTBATCH2x/
 ├── chapter_09_User_Input/             # User Input Handling
 │   ├── 68_User_Input.js               # Basic user input concepts
 │   ├── 69_Node_readline.js            # Input using Node.js readline
-│   └── 70_Prompt_Sync.js              # Synchronous prompt for input
+│   ├── 70_Prompt_Sync.js              # Synchronous prompt for input
+│   └── (20-May) TASK.js               # Practice tasks: HTTP status codes, test verdicts, build health, login lockout
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -201,6 +202,12 @@ node chapter_01_Basics/01_Basics.js
 - **Input Concepts:** Handling user input in JavaScript
 - **Node.js readline:** Asynchronous input using `readline` module
 - **Synchronous Prompt:** Using `prompt-sync` for blocking input
+- **Practice Tasks:**
+  - HTTP Status Code Categorizer (200, 300, 400, 500 ranges)
+  - Test Case Pass/Fail Verdict with emoji indicators
+  - Impact Score Severity classification (Critical, High, Medium, Low)
+  - Build Health Reporter (Green, Stable, Unstable, Broken)
+  - Login Lockout after failed attempts
 
 ## ⌨️ VS Code Keyboard Shortcuts
 

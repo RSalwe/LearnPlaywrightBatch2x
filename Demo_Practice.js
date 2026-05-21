@@ -34,65 +34,66 @@
 //Below '10' will be converted to int 10
 //10-5 = 5
 //5 + '2' = 52
-let result = '10' - 5 + '2';
-console.log(result);//52
+// let result = '10' - 5 + '2';
+// console.log(result);//52
 
 //Below greeting is not defined so in this
 //case output will always be right hand side
 //operand of ??
-let greeting;
-console.log(greeting ?? 'Hello World');
+// let greeting;
+// console.log(greeting ?? 'Hello World');
 
 //Below first 3 ** 2 = 9will be calculated
 //then 10 % 9 = 1
-let outcome = 10 % 3 ** 2;
-console.log(outcome);
+// let outcome = 10 % 3 ** 2;
+// console.log(outcome);
 
-//Below true (Boolean) is converted to string = 'true' 
+//Below true (Boolean) is converted to string = 'true'
 //'Result:'+'true' = Result:true
-let output = 'Result: ' + true;
-console.log(output);
+// let output = 'Result: ' + true;
+// console.log(output);
 
 
-const check = 50;
-function dynamic() {
-    const check = 100;
-    console.log(check);
-}
-dynamic();
+// const check = 50;
+// function dynamic() {
+//     const check = 100;
+//     console.log(check);
+// }
+// dynamic();
 
-console.log(typeof true);
-console.log(typeof (string));
-console.log(typeof (null) == typeof (undefined));
+// console.log(typeof true);
+// console.log(typeof (string));
+// console.log(typeof (null) == typeof (undefined));
 
-// 18 May - Task 1
-let a1 = 50;
-let b1 = 20;
-let max_Num = a1 > b1 ? "50" : "20";
-console.log(`Maximum Number between ${a1} & ${b1} is: ${max_Num}`);
+// // 18 May - Task 1
+// let a1 = 50;
+// let b1 = 20;
+// let max_Num = a1 > b1 ? "50" : "20";
+// console.log(`Maximum Number between ${a1} & ${b1} is: ${max_Num}`);
 
-// 18 May - Task 2
-let x = 100;
-let y = 50;
-let z = 300;
-let max_Num1 = x > y ? (x > z ? "100" : "300") : (y > z ? "50" : "300");
-console.log(`Maximum Number between ${x}, ${y} & ${z} is: ${max_Num1}`);
+// // 18 May - Task 2
+// let x = 100;
+// let y = 50;
+// let z = 300;
+// let max_Num1 = x > y ? (x > z ? "100" : "300") : (y > z ? "50" : "300");
+// console.log(`Maximum Number between ${x}, ${y} & ${z} is: ${max_Num1}`);
 
-// 18 May - Task Output
-let a = 5;
-console.log(a++ + ++a - --a + a-- + ++a);
-console.log(a);
+// // 18 May - Task Output
+// let a = 5;
+// console.log(a++ + ++a - --a + a-- + ++a);
+// console.log(a);
 
-console.log(0.1 + 0.2 === 0.3);//false
+// console.log(0.1 + 0.2 === 0.3);//false
 
-type = typeof 1;
-console.log(type);//number
-console.log(typeof typeof 1);//string
+// type = typeof 1;
+// console.log(type);//number
+// console.log(typeof typeof 1);//string
 
-console.log(3 > 2 > 1);
+// console.log(3 > 2 > 1);
 
-let x1 = 10;
-x1 &= 3;
-console.log(x1);
+// let x1 = 10;
+// x1 &= 3;
+// console.log(x1);
 
-console.log(x ??= 10);
+// console.log(x ??= 10);
+
