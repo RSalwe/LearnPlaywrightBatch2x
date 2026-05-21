@@ -69,6 +69,35 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 46_IQ_Incre_Decre_OP.js        # Increment/decrement interview questions
 │   └── 47_IQ_Adv_Incre_Decre_OP.js    # Advanced increment/decrement interview questions
 │
+├── chapter_07_If_else/                # Conditional Statements
+│   ├── 48_if_else.js                  # Basic if-else statements
+│   ├── 49_if_elseif_else.js           # if-else-if ladder
+│   ├── 50_real_if_else.js             # Real-world if-else examples
+│   ├── 51_API_if_elseif_else.js       # API status code handling with if-else-if
+│   ├── 52_IQ_if_else.js               # if-else interview questions
+│   ├── 53_if_else_real.js             # More real-world if-else practice
+│   ├── 54_IQ.js                       # Conditional logic IQ questions
+│   ├── 55_Only_if.js                  # Single if statement usage
+│   ├── 56_IQ_even_odd.js              # Even/odd check IQ
+│   ├── 57_Grade_Calc.js               # Grade calculator example
+│   └── 58_Leap_Year.js               # Leap year checker
+│
+├── chapter_08_Switch Statement/       # Switch Statements
+│   ├── 59_Switch.js                   # Switch statement basics
+│   ├── 60_Switch_No_Break.js          # Switch without break (fall-through)
+│   ├── 61_Switch_Default.js           # Switch default case
+│   ├── 62_switch_real.js              # Real-world switch examples
+│   ├── 63_Switch_Group.js             # Grouping cases in switch
+│   ├── 64_IQ1.js                      # Switch IQ questions 1
+│   ├── 65_IQ2.js                      # Switch IQ questions 2
+│   ├── 66_IQ3.js                      # Switch IQ questions 3
+│   └── 67_IQ4.js                      # Switch IQ questions 4
+│
+├── chapter_09_User_Input/             # User Input Handling
+│   ├── 68_User_Input.js               # Basic user input concepts
+│   ├── 69_Node_readline.js            # Input using Node.js readline
+│   └── 70_Prompt_Sync.js              # Synchronous prompt for input
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
 └── README.md                          # This file
@@ -152,6 +181,25 @@ node chapter_01_Basics/01_Basics.js
 - **Increment/Decrement:** `++`, `--`, post-increment/decrement behavior
 - **Increment/Decrement Interview Questions:** Common and advanced IQ patterns
 - **Type & Nullish Coalescing (`??`):** typeof, nullish coalescing
+
+### Chapter 7: Conditional Statements (if-else)
+- **if-else:** Basic conditional branching
+- **if-else-if ladder:** Multiple condition checks
+- **API Status Code Handling:** Practical example handling HTTP status codes (200, 201, 400, 401, 403, 404, 500, 502, 503, etc.)
+- **Real-world Examples:** Grade calculator, leap year checker, even/odd checks
+- **Interview Questions:** Common conditional logic IQ problems
+
+### Chapter 8: Switch Statements
+- **Switch Basics:** Using `switch` for multi-way branching
+- **Fall-through Behavior:** Cases without `break`
+- **Default Case:** Handling unmatched values
+- **Grouping Cases:** Multiple cases sharing the same logic
+- **Interview Questions:** Switch statement patterns and edge cases
+
+### Chapter 9: User Input
+- **Input Concepts:** Handling user input in JavaScript
+- **Node.js readline:** Asynchronous input using `readline` module
+- **Synchronous Prompt:** Using `prompt-sync` for blocking input
 
 ## ⌨️ VS Code Keyboard Shortcuts
 
