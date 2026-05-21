@@ -62,7 +62,7 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 39_Logical_OP.js               # Logical operators
 │   ├── 40_String_Concati_OP.js        # String concatenation operators
 │   ├── 41_Ternary_OP.js               # Ternary operator
-│   ├── 42_Type_OP.js                  # Type-related operators
+│   ├── 42_Typeof_OP.js                # typeof operator and type checking
 │   ├── 43_Incre_Decre_OP.js           # Increment & decrement operators
 │   ├── 44_Null_OP.js                  # Nullish coalescing operator
 │   ├── 45_Post_Incre_OP.js            # Post increment/decrement operators
@@ -180,7 +180,8 @@ node chapter_01_Basics/01_Basics.js
 - **String Concatenation:** Coercion behavior with strings and numbers
 - **Increment/Decrement:** `++`, `--`, post-increment/decrement behavior
 - **Increment/Decrement Interview Questions:** Common and advanced IQ patterns
-- **Type & Nullish Coalescing (`??`):** typeof, nullish coalescing
+- **typeof Operator:** Checking variable types (`typeof null === "object"`, `typeof NaN === "number"`, etc.)
+- **Nullish Coalescing (`??`):** Handling `null` and `undefined` default values
 
 ### Chapter 7: Conditional Statements (if-else)
 - **if-else:** Basic conditional branching
