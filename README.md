@@ -111,7 +111,8 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 79_IQ.js                       # Loop IQ questions
 │   ├── 80_IQ.js                       # Loop IQ questions
 │   ├── 81_IQ.js                       # Loop IQ questions
-│   └── 82_IQ.js                       # Loop IQ questions
+│   ├── 82_IQ.js                       # Loop IQ questions
+│   └── (22-May) TASK.js               # Practice tasks: Triangle Classifier, FizzBuzz
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -231,6 +232,9 @@ node chapter_01_Basics/01_Basics.js
 - **do...while Loop:** Post-test loop ensuring at least one execution
 - **Real-world Examples:** Practical loop usage scenarios
 - **Interview Questions:** Common loop patterns, edge cases, and IQ problems
+- **Practice Tasks (22-May):**
+  - Triangle Classifier (equilateral, isosceles, scalene)
+  - FizzBuzz Test (classic loop and conditional logic exercise)
 
 ## ⌨️ VS Code Keyboard Shortcuts
 
