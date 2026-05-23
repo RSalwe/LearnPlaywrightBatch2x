@@ -99,6 +99,20 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 69_Node_readline.js            # Input using Node.js readline
 │   └── 70_Prompt_Sync.js              # Synchronous prompt for input
 │
+├── chapter_10_Loop/                   # Loops in JavaScript
+│   ├── 71_for_loop.js                 # for loop basics
+│   ├── 72_for_Loop.js                 # for loop variations
+│   ├── 73_for_loop2.js                # for loop patterns
+│   ├── 74_IQ.js                       # Loop interview questions
+│   ├── 75_for_of_in_each.js           # for...of vs for...in loops
+│   ├── 76_while_loop.js               # while loop basics
+│   ├── 77_do_while_loop.js            # do...while loop basics
+│   ├── 78_do_while_real.js            # Real-world do...while examples
+│   ├── 79_IQ.js                       # Loop IQ questions
+│   ├── 80_IQ.js                       # Loop IQ questions
+│   ├── 81_IQ.js                       # Loop IQ questions
+│   └── 82_IQ.js                       # Loop IQ questions
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
 └── README.md                          # This file
@@ -208,6 +222,15 @@ node chapter_01_Basics/01_Basics.js
 - **Input Concepts:** Handling user input in JavaScript
 - **Node.js readline:** Asynchronous input using `readline` module
 - **Synchronous Prompt:** Using `prompt-sync` for blocking input
+
+### Chapter 10: Loops
+- **for Loop:** Basic syntax, initialization, condition, increment/decrement
+- **for Loop Variations:** Different patterns and use cases
+- **for...of vs for...in:** Iterating over arrays and objects
+- **while Loop:** Pre-test loop with condition-first execution
+- **do...while Loop:** Post-test loop ensuring at least one execution
+- **Real-world Examples:** Practical loop usage scenarios
+- **Interview Questions:** Common loop patterns, edge cases, and IQ problems
 
 ## ⌨️ VS Code Keyboard Shortcuts
 
