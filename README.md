@@ -114,6 +114,17 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 82_IQ.js                       # Loop IQ questions
 │   └── (22-May) TASK.js               # Practice tasks: Triangle Classifier, FizzBuzz
 │
+├── chapter_11_Arrays/                 # Arrays in JavaScript
+│   ├── 83_Arrays.js                   # Array basics, empty arrays, mixed types
+│   ├── 84_Arrays.js                   # Creating arrays: literal, constructor, Array.of, Array.from
+│   ├── 85_Access_Array.js             # Accessing and modifying arrays, .at() method
+│   ├── 86_Arrays_Adding_Remove.js     # push, pop, unshift, shift
+│   ├── 87_Adding_Remove2.js           # splice: insert, delete, replace
+│   ├── 88_Real_Example.js             # Real-world array manipulations
+│   ├── 89_Searching.js                # indexOf, lastIndexOf, includes, find, findIndex, findLast, findLastIndex
+│   ├── 90_Iterate.js                  # Iteration: for, for...of, forEach, for...in
+│   └── 91_Tranform_Array.js           # map, filter, reduce, flat
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
 └── README.md                          # This file
@@ -232,9 +243,54 @@ node chapter_01_Basics/01_Basics.js
 - **do...while Loop:** Post-test loop ensuring at least one execution
 - **Real-world Examples:** Practical loop usage scenarios
 - **Interview Questions:** Common loop patterns, edge cases, and IQ problems
-- **Practice Tasks (22-May):**
-  - Triangle Classifier (equilateral, isosceles, scalene)
-  - FizzBuzz Test (classic loop and conditional logic exercise)
+  - **Practice Tasks (22-May):**
+    - Triangle Classifier (equilateral, isosceles, scalene)
+    - FizzBuzz Test (classic loop and conditional logic exercise)
+
+### Chapter 11: Arrays
+- **Array Basics:** Empty arrays, mixed types, length vs index
+- **Creating Arrays:**
+  - Array literal (preferred): `let arr = [1, 2, 3]`
+  - Array constructor: `new Array(3)` creates a sparse array with 3 empty slots; `new Array(1, 2, 3)` creates `[1, 2, 3]`
+  - `Array.of(10, 20, 30)` — creates array from arguments regardless of count
+  - `Array.from("hello")` — creates array from iterable or array-like objects
+- **Accessing & Modifying:** Index access (`arr[0]`), `.at(-1)` for reverse access, modifying existing indices
+- **Adding & Removing:**
+  - `push()` / `pop()` — add/remove at end
+  - `unshift()` / `shift()` — add/remove at beginning
+  - `splice(start, deleteCount, ...items)` — insert, delete, or replace at any index
+- **Searching:** `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`
+- **Iteration:** `for` loop, `for...of`, `forEach`, `for...in`
+- **Transform Methods:** `map`, `filter`, `reduce`, `flat`
+
+#### `new Array(3)` — Sparse Array Behavior
+```javascript
+let scores = new Array(3);
+// Result: [empty × 3] — sparse array with 3 slots
+console.log(scores.length);  // 3
+console.log(scores[0]);      // undefined
+```
+
+⚠️ **The Sparse Array Trap:** `map()`, `forEach()`, and `for...of` skip empty slots.
+```javascript
+let a = new Array(3);
+a.map(() => 'x');  // [empty × 3] — callback never runs!
+
+let b = [undefined, undefined, undefined];
+b.map(() => 'x');  // ['x', 'x', 'x'] — works fine
+```
+
+**Better Alternatives:**
+```javascript
+// Fill with values
+let scores = Array(3).fill(0);              // [0, 0, 0]
+
+// Array.from (creates real values)
+let scores = Array.from({length: 3});       // [undefined, undefined, undefined]
+
+// Literal (if values known)
+let scores = [0, 0, 0];
+```
 
 ## ⌨️ VS Code Keyboard Shortcuts
 
