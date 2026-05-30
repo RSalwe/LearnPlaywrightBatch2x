@@ -123,7 +123,21 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 88_Real_Example.js             # Real-world array manipulations
 │   ├── 89_Searching.js                # indexOf, lastIndexOf, includes, find, findIndex, findLast, findLastIndex
 │   ├── 90_Iterate.js                  # Iteration: for, for...of, forEach, for...in
-│   └── 91_Tranform_Array.js           # map, filter, reduce, flat
+│   ├── 91_Tranform_Array.js           # map, filter, reduce, flat
+│   ├── 92_Arrays_Sorting.js           # sort() with lexicographic and numeric comparator
+│   ├── 93_Array_slicing.js            # slice(start, end) — non-mutating subarray extraction
+│   ├── 94_Concat_Array.js             # concat() and spread operator [...a, ...b]
+│   └── 95_Array_Checking.js           # Array.isArray, every, some
+│
+├── chapter_12_Functions/              # Functions in JavaScript
+│   ├── 96_Functions.js                # Function definition and calling basics
+│   ├── 97_Type1_Fn_Basic_Function.js  # Type 1: No parameters, no return
+│   ├── 98_Type2_Fn_With_Param_No_Return.js  # Type 2: With parameters, no return
+│   ├── 99_Type3_Fn_without_Param_Return_Type.js  # Type 3: No parameters, with return
+│   ├── 100_Type4_Fn_with_Param_Return_Type.js      # Type 4: With parameters and return
+│   ├── 101_Template_Literal.js        # Template literals inside functions
+│   ├── 102_Fn_Expression.js           # Function expressions
+│   └── 103_Arrow_Function.js          # Arrow functions (ES6)
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -262,6 +276,21 @@ node chapter_01_Basics/01_Basics.js
 - **Searching:** `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`
 - **Iteration:** `for` loop, `for...of`, `forEach`, `for...in`
 - **Transform Methods:** `map`, `filter`, `reduce`, `flat`
+- **Sorting:** `sort()` lexicographic default, numeric comparator `(a, b) => a - b`
+- **Slicing:** `slice(start, end)` — non-mutating subarray extraction
+- **Concatenation:** `concat()`, spread operator `[...a, ...b]`, `join()`
+- **Checking:** `Array.isArray()`, `every()`, `some()`
+
+### Chapter 12: Functions
+- **Function Basics:** Defining and calling functions
+- **Function Types:**
+  - Type 1: No parameters, no return
+  - Type 2: With parameters, no return
+  - Type 3: No parameters, with return
+  - Type 4: With parameters and return
+- **Template Literals in Functions:** Using backticks and `${}` interpolation
+- **Function Expressions:** Assigning functions to variables
+- **Arrow Functions (ES6):** Concise syntax, implicit returns, single-parameter shorthand
 
 #### `new Array(3)` — Sparse Array Behavior
 ```javascript
