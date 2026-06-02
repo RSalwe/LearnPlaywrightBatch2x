@@ -1,31 +1,31 @@
 // let a = '5' + 2;
-// console.log(a);
-// console.log(typeof a);
-// //if anyone of the operand is string output type will be string
+// console.log(a);//52
+// console.log(typeof a);//String
+// if anyone of the operand is string output type will be string
 
 // let b = 5 + '2';
-// console.log(b);
-// console.log(typeof b);
+// console.log(b);//52
+// console.log(typeof b);//String
 
 // let c = '5' + '2';
-// console.log(c);
-// console.log(typeof c);
+// console.log(c);//52
+// console.log(typeof c);//String
 
 // let d = '5' - 2;
-// console.log(d);
-// console.log(typeof d);
+// console.log(d);//3
+// console.log(typeof d);//number
 
 // let e = 2 - '5';
-// console.log(e);
-// console.log(typeof e);
+// console.log(e);//-3
+// console.log(typeof e);//number
 
 // let f = '5' - '5';
-// console.log(f);
-// console.log(typeof f);
+// console.log(f);//0
+// console.log(typeof f);//number
 
 // let g = null + undefined;
-// console.log(g);
-// console.log(typeof g);
+// console.log(g);//NaN
+// console.log(typeof g);//number
 
 // let h = 0 / 0;
 // console.log(h);
@@ -112,24 +112,124 @@
 //     let testName = "Login Test";
 // }
 
-let sideA = 20; sideB = 20; sideC = 20;
-if (sideA === sideB && sideB === sideC && sideC === sideA) {
-    console.log("This is an equilateral triangle");
-} else if (sideA === sideB || sideB === sideC || sideC === sideA) {
-    console.log("This is an isosceles triangle");
-} else {
-    console.log("This is an scalene triangle");
-}
+// let sideA = 20; sideB = 20; sideC = 20;
+// if (sideA === sideB && sideB === sideC && sideC === sideA) {
+//     console.log("This is an equilateral triangle");
+// } else if (sideA === sideB || sideB === sideC || sideC === sideA) {
+//     console.log("This is an isosceles triangle");
+// } else {
+//     console.log("This is an scalene triangle");
+// }
 
-for (let i = 1; i <= 100; i++) {
-    if (i % 3 === 0) {
-        console.log("Fizz");
-    } else if (i % 5 === 0) {
-        console.log("Buzz");
-    } else if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
-    } else {
-        console.log(i);
-    }
-}
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz");
+//     } else if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz");
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+// let name = Array.from("123456789");
+// console.log(name);
+
+// function addLog(a, b) {
+//     console.log(a + b);
+// }
+
+// function addReturn(a, b) {
+//     return a + b;
+// }
+
+// let x = addLog(2, 3);
+// let y = addReturn(2, 3);
+
+// console.log(x * 10);
+// console.log(y * 10);
+
+//below is Type 1 function as it has
+//NO param and NO return
+// function greet() {
+//     console.log("This is Type 1 function");
+// }
+// greet();
+
+
+//below is Type 2 function as it has
+//param but not return value and hence
+//it is printing undefined value
+// function greetByName(name) {
+//     console.log("Hello", name)
+// }
+
+// console.log(greetByName("Rupesh"));
+// console.log(greetByName("Gunjan"));
+
+//Type 2 function is like begger it never return anything
+// function begger(money) {
+//     console.log("Thank you for", money, "Rupees");
+// }
+// let noReturnJustThanks = begger(500);
+// console.log(noReturnJustThanks);
+
+//Below is Type 3 function where there is no param but has return keyword
+//This is like the relative whenever we go to their house we get money in return
+
+// function relativeMoney() {
+//     console.log("Thanks")
+//     return "Thank you Uncle";
+// }
+
+// let relative = relativeMoney();
+// console.log(relative);
+
+//below is Type 4 function (mostly used) where there is param and return keyeord as well
+// function addTwoNumbers(a, b) {
+//     return a + b;
+// }
+// let sum = addTwoNumbers(10, 20);
+// console.log(sum);
+
+//Below is also an Type 4 function
+// function greet(name) {
+//     return `Hello ${name}`;
+// }
+
+
+
+// //we can store the function into a variable
+// //and we can call the function using that variable
+// //BELOW IS ALSO CALLED FUNCTION AS EXPRESSION
+// const greet1 = function (name) {
+//     return `Hello ${name}`;
+// }
+// console.log(greet("Gunjan"));
+// console.log(greet1("Rupesh"));
+
+//Below is normal type 4 function
+// const greet = function (name) {
+//     return "Hello " + name;
+// }
+// console.log(greet("Rupesh"));
+
+
+// //conversion of type 4 function to arrow
+// //function is simply remove function keyword
+// //remove curly braces and remove return keyword
+// //and use only =>
+// //Below is arrow function
+// const greet1 = (name) => "Hello " + name;
+
+// console.log(greet1("Gunjan"));
+
+// Another example of arrow function
+
+// const doubleIt = n => n * 2;
+// console.log(doubleIt(100));
+
+const printIt = name => console.log("Hey " + name);
+printIt("Rupesh");
 

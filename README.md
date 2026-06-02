@@ -137,7 +137,21 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 100_Type4_Fn_with_Param_Return_Type.js      # Type 4: With parameters and return
 │   ├── 101_Template_Literal.js        # Template literals inside functions
 │   ├── 102_Fn_Expression.js           # Function expressions
-│   └── 103_Arrow_Function.js          # Arrow functions (ES6)
+│   ├── 103_Arrow_Function.js          # Arrow functions (ES6) — basics
+│   ├── 104_Arrow_Fn_REAL.js           # Arrow functions — real-world status code validation
+│   ├── 105_IIFE.js                    # Immediately Invoked Function Expressions (IIFE)
+│   ├── 106_Default_Param_Fn.js        # Default parameters in functions
+│   ├── 107_IQ.js                      # Function return values — interview question
+│   ├── 108_Rest_Param_Fn.js           # Rest parameters (`...args`)
+│   ├── 109_IQ.js                      # Function hoisting, TDZ, return behavior — IQ
+│   ├── 110_Spread_IQ.js               # Spread operator in function calls
+│   ├── 111_Scope_Fn.js                # Global vs local scope in functions
+│   ├── 112_IQ.js                      # Nested scope and closure concept — IQ
+│   ├── 113_Closure.js                 # Closure basics — returning inner function
+│   ├── 114_Closure.js                # Closure counter example with increment/decrement/get
+│   ├── 115_Closure_API_REAL.js        # Real-world closure: retry tracker for API tests
+│   ├── 116_Highr_Order_Fn.js          # Higher-order functions (accept/return functions)
+│   └── 117_Pure_Fn.js                 # Pure vs impure functions
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -290,7 +304,15 @@ node chapter_01_Basics/01_Basics.js
   - Type 4: With parameters and return
 - **Template Literals in Functions:** Using backticks and `${}` interpolation
 - **Function Expressions:** Assigning functions to variables
-- **Arrow Functions (ES6):** Concise syntax, implicit returns, single-parameter shorthand
+- **Arrow Functions (ES6):** Concise syntax, implicit returns, single-parameter shorthand; real-world status code validation example
+- **IIFE (Immediately Invoked Function Expressions):** Self-executing functions for isolated scope
+- **Default Parameters:** Providing fallback values for function arguments (`maxRetries = 3`, `delay = 1000`)
+- **Rest Parameters:** Collecting multiple arguments into an array using `...args`
+- **Spread Operator:** Expanding arrays into individual arguments when calling functions
+- **Scope in Functions:** Global scope vs local (`let`/`const` block scope), accessibility rules
+- **Closures:** Inner functions retaining access to outer function variables even after outer execution completes; counter example and real-world retry tracker for API testing
+- **Higher-Order Functions:** Functions that accept other functions as arguments or return functions
+- **Pure Functions:** Deterministic functions with no side effects vs impure functions dependent on external state
 
 #### `new Array(3)` — Sparse Array Behavior
 ```javascript
