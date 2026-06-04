@@ -153,6 +153,14 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 116_Highr_Order_Fn.js          # Higher-order functions (accept/return functions)
 │   └── 117_Pure_Fn.js                 # Pure vs impure functions
 │
+├── chapter_13_Strings/                # Strings in JavaScript
+│   ├── 118_Strings.js                 # String basics, String() conversion, JSON.stringify for arrays
+│   ├── 119_String_Properties.js       # length, index access, .at(), charAt, charCodeAt
+│   ├── 120_Search_Check_String.js     # includes, startsWith, endsWith, indexOf, lastIndexOf, search (regex)
+│   ├── 121_Substring.js               # slice, substring, negative index handling
+│   ├── 122_Transform_String.js        # toUpperCase, toLowerCase, trim, replace, replaceAll, concat, split, join
+│   └── 123_SC.js                      # String conversion: toString(), Number(), parseInt, parseFloat
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
 └── README.md                          # This file
@@ -313,6 +321,26 @@ node chapter_01_Basics/01_Basics.js
 - **Closures:** Inner functions retaining access to outer function variables even after outer execution completes; counter example and real-world retry tracker for API testing
 - **Higher-Order Functions:** Functions that accept other functions as arguments or return functions
 - **Pure Functions:** Deterministic functions with no side effects vs impure functions dependent on external state
+
+### Chapter 13: Strings
+- **String Basics:** Single quotes, double quotes, template literals (backticks), multiline strings
+- **String Conversion:** `String(value)` vs `JSON.stringify([1, 2])` to preserve array brackets
+- **String Properties:** `length`, index access (`str[0]`), `.at(-1)` for reverse access, `charAt()`, `charCodeAt()`
+- **Searching & Checking:**
+  - `includes()` — substring presence check
+  - `startsWith()` / `endsWith()` — prefix/suffix checks
+  - `indexOf()` / `lastIndexOf()` — first/last occurrence index
+  - `search()` — regex-based search returning index
+- **Substring Extraction:**
+  - `slice(start, end)` — supports negative indexes
+  - `substring(start, end)` — treats negatives as 0
+- **String Transformation:**
+  - Case: `toUpperCase()`, `toLowerCase()`
+  - Whitespace: `trim()`, `trimStart()`, `trimEnd()`
+  - Replacement: `replace()`, `replaceAll()`, regex `/g` flag
+  - Concatenation: `+` operator, `.concat()`
+  - Split & Join: `split()`, `join()` — converting between strings and arrays
+- **String Conversion Methods:** `.toString()`, `Number()`, `parseInt()`, `parseFloat()`
 
 #### `new Array(3)` — Sparse Array Behavior
 ```javascript
