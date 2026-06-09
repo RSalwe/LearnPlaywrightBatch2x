@@ -230,6 +230,19 @@
 // const doubleIt = n => n * 2;
 // console.log(doubleIt(100));
 
-const printIt = name => console.log("Hey " + name);
-printIt("Rupesh");
+// const printIt = name => console.log("Hey " + name);
+// printIt("Rupesh");
+
+function triangle(n) {
+    for (let i = n; i > 0; i--) {
+        let row = " ";
+        for (let j = 0; j < n - i; j++) {
+            row += "* ";
+        }
+        console.log(row);
+    }
+}
+
+const n = 5;
+triangle(n);
 

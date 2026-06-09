@@ -1,3 +1,4 @@
+//Check whether word is Palindromes or not
 function checkPalindrome(str) {
 
     //creating an empty var to store reverse string
