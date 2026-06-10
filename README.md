@@ -161,6 +161,15 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 122_Transform_String.js        # toUpperCase, toLowerCase, trim, replace, replaceAll, concat, split, join
 │   └── 123_SC.js                      # String conversion: toString(), Number(), parseInt, parseFloat
 │
+├── chapter_15_2D_Array/               # 2D Arrays (Matrices) in JavaScript
+│   ├── 138_2D_Array.js                # 2D array basics and initialization
+│   ├── 139_2D_IQ.js                   # 2D array interview questions
+│   ├── 140_2D_REAL.js                 # Real-world 2D array examples
+│   ├── 141_2D_Array_Fn.js             # 2D array functions and methods
+│   ├── 142_IQ_Write_Pyrad_Pattern.js  # Pyramid pattern writing exercises
+│   ├── testData.csv                   # Sample test data for 2D array operations
+│   └── 08-JUN-2026 (TASK).js          # Practice tasks for 2D arrays
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
 └── README.md                          # This file
@@ -341,6 +350,14 @@ node chapter_01_Basics/01_Basics.js
   - Concatenation: `+` operator, `.concat()`
   - Split & Join: `split()`, `join()` — converting between strings and arrays
 - **String Conversion Methods:** `.toString()`, `Number()`, `parseInt()`, `parseFloat()`
+
+### Chapter 15: 2D Arrays (Matrices)
+- **2D Array Basics:** Creating and initializing 2D arrays (matrices)
+- **2D Array Interview Questions:** Common IQ problems and patterns
+- **Real-world Examples:** Practical 2D array applications
+- **2D Array Functions:** Functions and methods for matrix operations
+- **Pattern Writing:** Pyramid and matrix pattern exercises
+- **Practice Tasks (08-JUN-2026):** Hands-on exercises for 2D arrays
 
 #### `new Array(3)` — Sparse Array Behavior
 ```javascript
