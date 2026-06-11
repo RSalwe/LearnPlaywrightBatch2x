@@ -170,6 +170,9 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── testData.csv                   # Sample test data for 2D array operations
 │   └── 08-JUN-2026 (TASK).js          # Practice tasks for 2D arrays
 │
+├── chapter_16_Callback/               # Callbacks and Asynchronous JavaScript
+│   └── 151_CB_Hell_20_Step.js         # Callback Hell (Pyramid of Doom) - 20 nested callbacks example
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
 └── README.md                          # This file
@@ -350,6 +353,11 @@ node chapter_01_Basics/01_Basics.js
   - Concatenation: `+` operator, `.concat()`
   - Split & Join: `split()`, `join()` — converting between strings and arrays
 - **String Conversion Methods:** `.toString()`, `Number()`, `parseInt()`, `parseFloat()`
+
+### Chapter 16: Callbacks and Asynchronous JavaScript
+- **Callback Hell (Pyramid of Doom):** Deeply nested callback functions creating unreadable code
+- **Asynchronous Patterns:** Understanding sequential async operations using callbacks
+- **Anti-pattern Example:** 20-level deep nested callbacks demonstrating why promises/async-await were introduced
 
 ### Chapter 15: 2D Arrays (Matrices)
 - **2D Array Basics:** Creating and initializing 2D arrays (matrices)
