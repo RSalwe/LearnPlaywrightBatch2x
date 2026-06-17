@@ -161,6 +161,21 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 122_Transform_String.js        # toUpperCase, toLowerCase, trim, replace, replaceAll, concat, split, join
 │   └── 123_SC.js                      # String conversion: toString(), Number(), parseInt, parseFloat
 │
+├── chapter_14_Objects/                # Objects in JavaScript
+│   ├── 124_Objects.js                 # Object basics, key-value pairs, object reference
+│   ├── 125_Objects2.js                # Objects deep dive, dot/bracket notation, copy by reference
+│   ├── 126_Objects_Creation.js        # Object creation, reference equality (===) comparison
+│   ├── 127_Objects_REAL.js            # Real-world object usage, adding/deleting properties
+│   ├── 128_Primitive_Ref.js           # Primitive vs reference types (copy by value vs reference)
+│   ├── 129_Objects_Example.js         # JSON vs JS object syntax comparison
+│   ├── 130.IQ.js                      # Object IQ: dynamic property access, property descriptors
+│   ├── 131_Object_Fn.js               # Object methods (functions inside objects)
+│   ├── 132_Object_Deconstruct.js      # Object destructuring, renaming, default values, nested
+│   ├── 133_Spread.js                  # Spread operator with objects, const vs let in objects
+│   ├── 134_Object_GET_SET_Methods.js  # Getters and setters in objects
+│   ├── 135_IQ.js                      # Object IQ: Object.keys(), values(), entries(), for...in
+│   └── 136_Objects_Real.js            # Real-world config objects, env setup, API response examples
+│
 ├── chapter_15_2D_Array/               # 2D Arrays (Matrices) in JavaScript
 │   ├── 138_2D_Array.js                # 2D array basics and initialization
 │   ├── 139_2D_IQ.js                   # 2D array interview questions
@@ -171,7 +186,27 @@ LEARNPLAYWRIGHTBATCH2x/
 │   └── 08-JUN-2026 (TASK).js          # Practice tasks for 2D arrays
 │
 ├── chapter_16_Callback/               # Callbacks and Asynchronous JavaScript
-│   └── 151_CB_Hell_20_Step.js         # Callback Hell (Pyramid of Doom) - 20 nested callbacks example
+│   ├── 143_Callback.js                # Callback basics and introduction
+│   ├── 144_CB.js                      # Callback patterns
+│   ├── 145_CB_Fn.js                   # Callback functions
+│   ├── 146_PW_CB.js                   # Playwright callbacks
+│   ├── 147_JS_CB.js                   # JavaScript callbacks
+│   ├── 148_Sync_CB.js                 # Synchronous callbacks
+│   ├── 149_Async_CB.js                # Asynchronous callbacks
+│   ├── 150_CB_Hell.js                 # Callback Hell (Pyramid of Doom) - basic example
+│   ├── 151_CB_Hell_20_Step.js         # Callback Hell (Pyramid of Doom) - 20 nested callbacks example
+│   ├── 152_CB_Parameter.js            # Callbacks with parameters
+│   ├── 153_CB_Return.js               # Callbacks with return values
+│   └── interview.md                   # 150+ JavaScript Interview Questions (Chapters 1-16)
+│
+├── chapter_17_Promise/                # Promises in JavaScript
+│   ├── 154_Promise.js                 # Basic Promise constructor with resolve/reject
+│   ├── 155_Promise_REAL_API.js        # Promise with .then() - successful API response (status 200)
+│   ├── 156_Promise_REAL_API_PART2.js  # Promise with .catch() - rejected API (500 error)
+│   ├── 157_Finally.js                 # Promise with .finally() - runs regardless of resolve/reject
+│   ├── 158_CB_Pyrad_Problem.js        # Promise chaining - browser login flow avoiding callback hell
+│   ├── 159_Promise_ALL.js             # Promise.all() - fail-fast vs Promise.allSettled() - all results
+│   └── 160_Promise_IQ.js              # Interview questions: chaining, error propagation, all/allSettled
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -354,10 +389,38 @@ node chapter_01_Basics/01_Basics.js
   - Split & Join: `split()`, `join()` — converting between strings and arrays
 - **String Conversion Methods:** `.toString()`, `Number()`, `parseInt()`, `parseFloat()`
 
+### Chapter 14: Objects
+- **Object Basics:** Key-value pairs, object references, empty objects
+- **Accessing Properties:** Dot notation (`obj.key`) vs bracket notation (`obj["key"]`)
+- **Copy by Reference:** Objects assigned by reference (not value), mutation impact on all references
+- **Primitive vs Reference Types:** Primitives (number, string, boolean) copy by value; objects/arrays copy by reference
+- **JSON vs JS Object Syntax:** Keys without quotes (JS) vs keys with double quotes (JSON)
+- **Adding/Modifying/Deleting Properties:** Dynamic property assignment and `delete` operator
+- **Dynamic Property Access:** Using variables as keys with bracket notation
+- **Object Destructuring:** Extracting properties, renaming with `:`, default values, nested destructuring
+- **Spread Operator (`...`):** Shallow copying and merging objects
+- **`const` with Objects:** `const` prevents reassignment of the reference, not mutation of properties
+- **Object Methods:** Functions defined inside objects
+- **Getters & Setters:** `get` and `set` keywords for computed property access
+- **Object Utility Methods:** `Object.keys()`, `Object.values()`, `Object.entries()`, `for...in` loop
+- **Property Descriptors:** `writable`, `enumerable`, `configurable` flags via `getOwnPropertyDescriptor`
+- **Real-world Examples:** Config objects, environment setup, API response structures
+
 ### Chapter 16: Callbacks and Asynchronous JavaScript
 - **Callback Hell (Pyramid of Doom):** Deeply nested callback functions creating unreadable code
 - **Asynchronous Patterns:** Understanding sequential async operations using callbacks
 - **Anti-pattern Example:** 20-level deep nested callbacks demonstrating why promises/async-await were introduced
+
+### Chapter 17: Promises
+- **Promise Basics:** Constructor with `resolve` / `reject`, pending/settled states based on condition
+- **`.then()`:** Handles successful resolution — triggered only when `resolve()` is called
+- **`.catch()`:** Handles rejection — triggered only when `reject()` is called; `.then()` is skipped entirely
+- **`.finally()`:** Always executes regardless of resolve or reject — cleanup logic
+- **Promise Chaining:** Sequential async flow returning new promises from each `.then()`, avoiding callback hell
+- **`Promise.all()`:** Runs multiple promises in parallel — fails fast on first rejection (short-circuit)
+- **`Promise.allSettled()`:** Runs all promises and returns results for each (status: fulfilled/rejected) — ideal for test reports
+- **`Promise.resolve()` / `Promise.reject()`:** Static helpers for creating immediately settled promises
+- **Error Propagation:** A `throw` or rejection in any `.then()` skips subsequent `.then()`s and triggers the nearest `.catch()`
 
 ### Chapter 15: 2D Arrays (Matrices)
 - **2D Array Basics:** Creating and initializing 2D arrays (matrices)
