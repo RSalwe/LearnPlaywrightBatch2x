@@ -1,0 +1,28 @@
+{
+  "name": "learnplaywrightbatch2x",
+  "version": "1.0.0",
+  "description": "A comprehensive learning repository for **Playwright** automation testing and **JavaScript** fundamentals. This project is organized into chapters covering everything from basic JavaScript concepts to advanced Playwright testing techniques.",
+  "main": "Demo_Practice.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSalwe/LearnPlaywrightBatch2x.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RSalwe/LearnPlaywrightBatch2x/issues"
+  },
+  "homepage": "https://github.com/RSalwe/LearnPlaywrightBatch2x#readme",
+  "dependencies": {
+    "playwright": "^1.61.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
+  }
+}
