@@ -233,7 +233,8 @@ LEARNPLAYWRIGHTBATCH2x/
 │       ├── 175_IQ.js                  # Class/object interview questions
 │       ├── 176_Private_Public.js      # Private (#) vs public fields
 │       ├── 177_Static.js              # Static methods and properties
-│       └── 178_Static.js              # Advanced static examples
+│       ├── 178_Static.js              # Advanced static examples
+│       └── 22-JUN-2026 (TASK).js      # Calculator & Student class tasks
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
