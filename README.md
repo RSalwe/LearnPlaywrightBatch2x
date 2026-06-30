@@ -208,7 +208,36 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 159_Promise_ALL.js             # Promise.all() - fail-fast vs Promise.allSettled() - all results
 │   └── 160_Promise_IQ.js              # Interview questions: chaining, error propagation, all/allSettled
 │
+├── chapter_18_Async_Await/             # Async/Await in JavaScript
+│   ├── 161_Async_Await.js             # Async/await basics with Promise
+│   ├── 162_Async_API.js               # Async/await with API simulation
+│   ├── 163_Async_Real.js              # Real-world async/await patterns
+│   ├── 164_Async_All.js               # async/await with Promise.all
+│   └── 165_IQ.js                      # Async/await interview questions
+│
+├── chapter_19_Playwright_Basics/      # Playwright Automation Basics
+│   ├── 166_Launch_Browser.js          # Launching Chromium with Playwright
+│   └── 167_Launch_Firefox.js          # Launching Firefox with Playwright
+│
+├── chapter_20_OOPs_Basics/            # Object-Oriented Programming in JavaScript
+│   ├── 01_EXPORT IMPORT/             # ES6 Modules: export & import
+│   │   ├── 168_EXPORT_IMPORT.js      # Named exports and import
+│   │   ├── 169_Utils.js              # Utility function exports
+│   │   ├── 170_Logger.js             # Logger module export
+│   │   └── ExplainDefault.md         # Default vs named export guide
+│   └── 02_CLASS_OBJECT/              # Classes and Objects
+│       ├── 171_Class_Object.js        # Class basics with constructor
+│       ├── 171_Class_Object2.js       # Class with methods
+│       ├── 173_Car.js                 # Car class example
+│       ├── 174_Real_Browser.js        # Browser class - real-world example
+│       ├── 175_IQ.js                  # Class/object interview questions
+│       ├── 176_Private_Public.js      # Private (#) vs public fields
+│       ├── 177_Static.js              # Static methods and properties
+│       └── 178_Static.js              # Advanced static examples
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
+│
+├── utils.js, logger.js                # Shared utility modules
 │
 └── README.md                          # This file
 ```
@@ -485,6 +514,28 @@ Categories covered:
 | lowercase | `name` | Simple variables |
 | UPPERCASE | `DEBUG` | Simple constants |
 | kebab-case | `user-profile` | **Invalid** in JS identifiers |
+
+### Chapter 18: Async/Await
+- **Async/Await Basics:** Writing asynchronous code with `async` functions and `await` keyword
+- **API Simulation:** Simulating API calls with `setTimeout` wrapped in Promises
+- **Real-world Patterns:** Sequential async execution, error handling with try/catch
+- **Parallel Execution:** `Promise.all` with async/await for concurrent operations
+- **Interview Questions:** Common async/await patterns and edge cases
+
+### Chapter 19: Playwright Basics
+- **Launching Browsers:** Automating Chromium and Firefox using Playwright
+- **Page Navigation:** Opening URLs and interacting with web pages
+- **Browser Automation:** Programmatic browser control with Node.js
+
+### Chapter 20: OOPs Basics (Object-Oriented Programming)
+- **ES6 Modules:** Named exports (`export`), default exports, and `import` syntax
+- **Classes & Objects:**
+  - Constructor methods and instance properties
+  - Instance methods for object behavior
+  - Private fields (`#property`) for encapsulation
+  - Static methods and properties (`static` keyword)
+- **Real-world Examples:** Browser class simulating browser launch/close, car class modeling vehicle properties
+- **Interview Questions:** Class/object patterns, static vs instance members, private field access
 
 ## 🤝 Contributing
 
