@@ -60,3 +60,4 @@ const students = [
 ];
 
 students.forEach(member => member.printinfo());
+
