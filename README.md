@@ -216,47 +216,62 @@ LEARNPLAYWRIGHTBATCH2x/
 │   └── 165_IQ.js                      # Async/await interview questions
 │
 ├── chapter_19_Playwright_Basics/      # Playwright Automation Basics
+├── chapter_20_Export_Import/          # ES6 Modules: Export & Import
+├── chapter_21_Classes_and_Objects/    # Classes & Objects
+├── chapter_22_Encapsulation/          # Encapsulation
+├── chapter_23_Inheritance/            # Inheritance
+├── chapter_24_Polymorphism/           # Polymorphism
+├── chapter_25_OOP_Interview_Questions/ # OOP Interview Questions
 │   ├── 166_Launch_Browser.js          # Launching Chromium with Playwright
 │   └── 167_Launch_Firefox.js          # Launching Firefox with Playwright
 │
-├── chapter_20_OOPs_Basics/            # Object-Oriented Programming in JavaScript
-│   ├── 01_EXPORT IMPORT/             # ES6 Modules: export & import
+├── chapter_20_Export_Import/          # ES6 Modules: Export & Import
+│   ├── 01_IMPORT_EXPORT/
 │   │   ├── 168_EXPORT_IMPORT.js      # Named exports and import
-│   │   ├── 169_Utils.js              # Utility function exports
-│   │   ├── 170_Logger.js             # Logger module export
+│   │   ├── 169_Utils.js              # Named imports with aliases
+│   │   ├── 170_Logger.js             # Default import example
 │   │   └── ExplainDefault.md         # Default vs named export guide
-│   ├── 02_CLASS_OBJECT/              # Classes and Objects
-│       ├── 171_Class_Object.js        # Class basics with constructor
-│       ├── 171_Class_Object2.js       # Class with methods
-│       ├── 173_Car.js                 # Car class example
-│       ├── 174_Real_Browser.js        # Browser class - real-world example
-│       ├── 175_IQ.js                  # Class/object interview questions
-│       ├── 176_Private_Public.js      # Private (#) vs public fields
-│       ├── 177_Static.js              # Static methods and properties
-│       ├── 178_Static.js              # Advanced static examples
-│       └── 22-JUN-2026 (TASK).js      # Calculator & Student class tasks
-│   ├── 03_ENCAPSULATION/             # Encapsulation
-│   │   ├── 179_Encap.js              # Encapsulation basics with private fields
-│   │   ├── 180_Real_Ex.js            # Real-world encapsulation example
-│   │   ├── 181_Real_Car.js           # Car class with encapsulation
-│   │   └── 182_Encap_Bank.js         # Bank account with private balance
-│   ├── 04_Inheritance/               # Inheritance
-│   │   ├── 183_Single_Inheritance.js  # Single inheritance basics
-│   │   ├── 184_SI_Example.js          # Single inheritance example
-│   │   ├── 185_Single Inheritance_Contra.js  # Constructor in inheritance
-│   │   ├── 186_IQ.js                 # Inheritance interview questions
-│   │   ├── 187_IQ2.js                # Advanced inheritance IQs
-│   │   ├── 188_REAL_POM.js           # POM pattern with inheritance
-│   │   ├── 189_Multiple_Inheritance.js # Multiple inheritance via mixins
-│   │   ├── 190_Multi_Level_Inheritance.js  # Multi-level inheritance
-│   │   └── 191_Hierarchical_Inheritance.js # Hierarchical inheritance
-│   ├── 05_Polymorohism/              # Polymorphism
-│   │   └── 192_Method_Overriding.js   # Method overriding example
-│   └── Interview_Questions/           # OOPs Interview Questions
-│       ├── EX1.js                    # OOPs IQ practice 1
-│       ├── EX2.js                    # OOPs IQ practice 2
-│       ├── EX3.js                    # OOPs IQ practice 3
-│       └── EX4.js                    # OOPs IQ practice 4
+│   ├── utils.js                      # Named exports (BASE_URL, formatTestName)
+│   ├── testutils.js                  # Named exports (BASE_URL — name clash demo)
+│   ├── logger.js                     # Default + named exports
+│   └── README.md                     # Chapter 20 documentation
+│
+├── chapter_21_Classes_and_Objects/   # Classes & Objects
+│   ├── 171_Class_Object.js           # Class basics with constructor
+│   ├── 171_Class_Object2.js          # Class with methods
+│   ├── 173_Car.js                    # Car class example
+│   ├── 174_Real_Browser.js           # Browser class — real-world example
+│   ├── 175_IQ.js                     # Class/object interview questions
+│   ├── 176_Private_Public.js         # Private (#) vs public fields
+│   ├── 177_Static.js                 # Static methods and properties
+│   ├── 178_Static.js                 # Advanced static examples
+│   └── 22-JUN-2026 (TASK).js         # Calculator & Student class tasks
+│
+├── chapter_22_Encapsulation/         # Encapsulation
+│   ├── 179_Encap.js                  # Encapsulation basics with private fields
+│   ├── 180_Real_Ex.js                # Real-world encapsulation example
+│   ├── 181_Real_Car.js               # Car class with encapsulation
+│   └── 182_Encap_Bank.js             # Bank account with private balance
+│
+├── chapter_23_Inheritance/           # Inheritance
+│   ├── 183_Single_Inheritance.js     # Single inheritance basics
+│   ├── 184_SI_Example.js             # Single inheritance example
+│   ├── 185_Single Inheritance_Contra.js  # Constructor in inheritance
+│   ├── 186_IQ.js                     # Inheritance interview questions
+│   ├── 187_IQ2.js                    # Advanced inheritance IQs
+│   ├── 188_REAL_POM.js               # POM pattern with inheritance
+│   ├── 189_Multiple_Inheritance.js   # Multiple inheritance via mixins
+│   ├── 190_Multi_Level_Inheritance.js # Multi-level inheritance
+│   └── 191_Hierarchical_Inheritance.js # Hierarchical inheritance
+│
+├── chapter_24_Polymorphism/          # Polymorphism
+│   └── 192_Method_Overriding.js      # Method overriding example
+│
+├── chapter_25_OOP_Interview_Questions/ # OOPs Interview Questions
+│   ├── EX1.js                        # OOPs IQ practice 1
+│   ├── EX2.js                        # OOPs IQ practice 2
+│   ├── EX3.js                        # OOPs IQ practice 3
+│   └── EX4.js                        # OOPs IQ practice 4
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -550,18 +565,38 @@ Categories covered:
 - **Page Navigation:** Opening URLs and interacting with web pages
 - **Browser Automation:** Programmatic browser control with Node.js
 
-### Chapter 20: OOPs Basics (Object-Oriented Programming)
-- **ES6 Modules:** Named exports (`export`), default exports, and `import` syntax
-- **Classes & Objects:**
-  - Constructor methods and instance properties
-  - Instance methods for object behavior
-  - Private fields (`#property`) for encapsulation
-  - Static methods and properties (`static` keyword)
-- **Real-world Examples:** Browser class simulating browser launch/close, car class modeling vehicle properties
-- **Encapsulation:** Private fields with getter methods, bank account balance protection, real-world data hiding examples
-- **Inheritance:** Single, multi-level, and hierarchical inheritance; super constructor calls; Page Object Model pattern with inheritance; interview questions
-- **Polymorphism:** Method overriding in derived classes
-- **Interview Questions:** OOPs IQ practice exercises (EX1-EX4)
+### Chapter 20: Export / Import (ES Modules)
+- **Export Types:** Named exports (`export` many per file) and default exports (`export default` exactly one per file)
+- **Import Syntax:** Named imports with `{ }` and `as` aliases to resolve name clashes; default imports without braces
+- **Module Boundaries:** Explicit dependency control instead of global namespace pollution
+- **Real-world Files:** `utils.js`, `testutils.js`, `logger.js` — demonstrating clash scenarios and mixed export patterns
+
+### Chapter 21: Classes & Objects
+- **Class Basics:** Constructor methods, instance properties, and instance methods
+- **Private Fields:** `#property` syntax for encapsulation within classes
+- **Static Members:** Static methods and properties (`static` keyword)
+- **Real-world Examples:** Browser class simulating launch/close, Car class modeling vehicle properties
+- **Interview Questions:** Class/object patterns, static vs instance members, private field access
+
+### Chapter 22: Encapsulation
+- **Encapsulation Basics:** Private fields with getter methods for controlled access
+- **Real-world Examples:** Bank account with protected balance, Car class with hidden internals
+- **Data Hiding:** Protecting internal state from external modification
+
+### Chapter 23: Inheritance
+- **Types:** Single, multi-level, and hierarchical inheritance
+- **super Keyword:** Calling parent class constructors and methods
+- **Page Object Model:** Real-world POM pattern implemented with inheritance
+- **Multiple Inheritance:** JavaScript's approach via mixins / composition
+- **Interview Questions:** Common inheritance patterns and edge cases
+
+### Chapter 24: Polymorphism
+- **Method Overriding:** Derived classes overriding parent class methods
+- **Dynamic Dispatch:** Runtime method resolution based on object type
+
+### Chapter 25: OOP Interview Questions
+- **Practice Exercises:** EX1-EX4 covering core OOP concepts
+- **Topics:** Class design, inheritance chains, encapsulation, polymorphism patterns
 
 ## 🤝 Contributing
 
