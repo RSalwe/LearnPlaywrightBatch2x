@@ -225,7 +225,7 @@ LEARNPLAYWRIGHTBATCH2x/
 │   │   ├── 169_Utils.js              # Utility function exports
 │   │   ├── 170_Logger.js             # Logger module export
 │   │   └── ExplainDefault.md         # Default vs named export guide
-│   └── 02_CLASS_OBJECT/              # Classes and Objects
+│   ├── 02_CLASS_OBJECT/              # Classes and Objects
 │       ├── 171_Class_Object.js        # Class basics with constructor
 │       ├── 171_Class_Object2.js       # Class with methods
 │       ├── 173_Car.js                 # Car class example
@@ -235,6 +235,28 @@ LEARNPLAYWRIGHTBATCH2x/
 │       ├── 177_Static.js              # Static methods and properties
 │       ├── 178_Static.js              # Advanced static examples
 │       └── 22-JUN-2026 (TASK).js      # Calculator & Student class tasks
+│   ├── 03_ENCAPSULATION/             # Encapsulation
+│   │   ├── 179_Encap.js              # Encapsulation basics with private fields
+│   │   ├── 180_Real_Ex.js            # Real-world encapsulation example
+│   │   ├── 181_Real_Car.js           # Car class with encapsulation
+│   │   └── 182_Encap_Bank.js         # Bank account with private balance
+│   ├── 04_Inheritance/               # Inheritance
+│   │   ├── 183_Single_Inheritance.js  # Single inheritance basics
+│   │   ├── 184_SI_Example.js          # Single inheritance example
+│   │   ├── 185_Single Inheritance_Contra.js  # Constructor in inheritance
+│   │   ├── 186_IQ.js                 # Inheritance interview questions
+│   │   ├── 187_IQ2.js                # Advanced inheritance IQs
+│   │   ├── 188_REAL_POM.js           # POM pattern with inheritance
+│   │   ├── 189_Multiple_Inheritance.js # Multiple inheritance via mixins
+│   │   ├── 190_Multi_Level_Inheritance.js  # Multi-level inheritance
+│   │   └── 191_Hierarchical_Inheritance.js # Hierarchical inheritance
+│   ├── 05_Polymorohism/              # Polymorphism
+│   │   └── 192_Method_Overriding.js   # Method overriding example
+│   └── Interview_Questions/           # OOPs Interview Questions
+│       ├── EX1.js                    # OOPs IQ practice 1
+│       ├── EX2.js                    # OOPs IQ practice 2
+│       ├── EX3.js                    # OOPs IQ practice 3
+│       └── EX4.js                    # OOPs IQ practice 4
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -536,7 +558,10 @@ Categories covered:
   - Private fields (`#property`) for encapsulation
   - Static methods and properties (`static` keyword)
 - **Real-world Examples:** Browser class simulating browser launch/close, car class modeling vehicle properties
-- **Interview Questions:** Class/object patterns, static vs instance members, private field access
+- **Encapsulation:** Private fields with getter methods, bank account balance protection, real-world data hiding examples
+- **Inheritance:** Single, multi-level, and hierarchical inheritance; super constructor calls; Page Object Model pattern with inheritance; interview questions
+- **Polymorphism:** Method overriding in derived classes
+- **Interview Questions:** OOPs IQ practice exercises (EX1-EX4)
 
 ## 🤝 Contributing
 
