@@ -233,16 +233,32 @@
 // const printIt = name => console.log("Hey " + name);
 // printIt("Rupesh");
 
-function triangle(n) {
-    for (let i = n; i > 0; i--) {
-        let row = " ";
-        for (let j = 0; j < n - i; j++) {
-            row += "* ";
-        }
-        console.log(row);
+// function triangle(n) {
+//     for (let i = n; i > 0; i--) {
+//         let row = " ";
+//         for (let j = 0; j < n - i; j++) {
+//             row += "* ";
+//         }
+//         console.log(row);
+//     }
+// }
+
+// const n = 5;
+// triangle(n);
+
+class Token {
+    #value;
+    constructor(val) {
+        this.#value = val;
+    }
+    getToken() {
+        return this.#value;
+    }
+    getMasked() {
+        return "***" + this.#value.slice(-4);
     }
 }
-
-const n = 5;
-triangle(n);
-
+let t = new Token("abcdef1234");
+console.log(t.getMasked());
+console.log(t.getToken());
+console.log(t.value);
