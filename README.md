@@ -215,16 +215,6 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 164_Async_All.js               # async/await with Promise.all
 │   └── 165_IQ.js                      # Async/await interview questions
 │
-├── chapter_19_Playwright_Basics/      # Playwright Automation Basics
-├── chapter_20_Export_Import/          # ES6 Modules: Export & Import
-├── chapter_21_Classes_and_Objects/    # Classes & Objects
-├── chapter_22_Encapsulation/          # Encapsulation
-├── chapter_23_Inheritance/            # Inheritance
-├── chapter_24_Polymorphism/           # Polymorphism
-├── chapter_25_OOP_Interview_Questions/ # OOP Interview Questions
-│   ├── 166_Launch_Browser.js          # Launching Chromium with Playwright
-│   └── 167_Launch_Firefox.js          # Launching Firefox with Playwright
-│
 ├── chapter_20_Export_Import/          # ES6 Modules: Export & Import
 │   ├── 01_IMPORT_EXPORT/
 │   │   ├── 168_EXPORT_IMPORT.js      # Named exports and import
@@ -272,6 +262,50 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── EX2.js                        # OOPs IQ practice 2
 │   ├── EX3.js                        # OOPs IQ practice 3
 │   └── EX4.js                        # OOPs IQ practice 4
+│
+├── chapter_26_Typescript/             # TypeScript Basics
+│   ├── 193_TS.js                     # Plain JS file (no types)
+│   ├── 194_TS_HelloWorld.ts          # First TS file with type annotations
+│   ├── 195_TS_Part1.ts               # Basic functions with void return
+│   ├── 196_TS_Part2.ts               # Primitive types, arrays, any, unknown
+│   ├── 197_TS_Part2.ts               # Type guards, function/arrow annotations
+│   ├── 198_TS_Part3.ts               # void and never return types
+│   ├── 199_IQ.ts                     # String builder, status checker IQs
+│   ├── 200_IQ.ts                     # Filter failed codes IQs
+│   └── README.md                     # Chapter 26 documentation
+│
+├── chapter_27_Typescript_Interface/   # TypeScript Interface
+│   ├── 201_Interface.ts              # Interface basics — TestCase model
+│   ├── 202_Interface_Part2.ts        # Optional properties (? modifier)
+│   ├── 203_Interface_Readonly.ts     # Readonly modifier on APIResponse
+│   ├── 204_Interface_Readonly.ts     # Readonly Point & readonly arrays
+│   ├── 205_Interface.ts              # Interface methods — Calculator
+│   ├── 206_Hooks.ts                  # Function types — test hooks
+│   ├── 207_Bug_Report.ts             # BugReport interface with string[]
+│   ├── 208_TestConfig.ts             # TestConfig with optional fields
+│   ├── 209_Real_Example.ts           # Interface extends — LoginPage
+│   ├── 210_Class_Interface.ts        # implements keyword — class contracts
+│   └── README.md                     # Chapter 27 documentation
+│
+├── chapter_28_ENUM/                   # ENUM in TypeScript
+│   ├── 211_ENUM.ts                   # Enum basics — TestStatus
+│   ├── 212_ENUM_Functions.ts         # Enums for config — Severity, Environment
+│   ├── 213_ENUM.ts                   # Enum + switch — Browser launcher
+│   ├── 214_ENUM_API.ts               # Enum for HTTP methods
+│   └── README.md                     # Chapter 28 documentation
+│
+├── chapter_29_Typescript_Generic/     # TypeScript Generics
+│   ├── 215_Generic.ts                # Generic functions <T>
+│   ├── 216_Generic_Class.ts          # Generic class — TestDataStorage<T>
+│   ├── 217_Generic_API_Response.ts   # Generic API wrapper
+│   └── README.md                     # Chapter 29 documentation
+│
+├── chapter_30_PRIVATE_PUBLIC_PROTECTED/ # Access Modifiers & Abstraction
+│   ├── 218_PPP.ts                    # public, private, protected
+│   ├── 219_Page_Object_Model.ts      # POM with protected methods
+│   ├── 220_READONLY.ts              # Readonly class fields
+│   ├── 221_Abstract_Class.ts         # Abstract classes — BaseTest
+│   └── README.md                     # Chapter 30 documentation
 │
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
@@ -597,6 +631,38 @@ Categories covered:
 ### Chapter 25: OOP Interview Questions
 - **Practice Exercises:** EX1-EX4 covering core OOP concepts
 - **Topics:** Class design, inheritance chains, encapsulation, polymorphism patterns
+
+### Chapter 26: TypeScript
+- **Type Annotations:** Adding types to variables, function parameters, and return values
+- **Primitive Types:** `string`, `number`, `boolean`, `null`, `undefined`
+- **Special Types:** `any` (disables checking), `unknown` (requires narrowing), `never` (no return), `void`
+- **Functions:** Arrow functions with types, object annotations, type guards with `typeof`
+
+### Chapter 27: TypeScript Interface
+- **Interface Basics:** Defining object shape with required properties
+- **Optional Properties:** `?` modifier for fields that may be omitted
+- **Readonly Modifier:** `readonly` prevents reassignment after object creation
+- **Interface Methods:** Declaring method signatures inside interfaces
+- **Function Types:** Anonymous function signatures as interface members
+- **Extending Interfaces:** `extends` keyword for interface inheritance
+- **Class + Interface:** `implements` keyword — class must match interface contract
+
+### Chapter 28: ENUM
+- **Enum Basics:** Named constants for fixed option sets (test statuses, browsers)
+- **String Enums:** Custom string values instead of numeric defaults
+- **Enum + Switch:** Clean branching logic using enum values
+- **Real-world Usage:** HTTP methods, browser choices, environment URLs
+
+### Chapter 29: TypeScript Generics
+- **Generic Functions:** `<T>` placeholder for type-safe reusable functions
+- **Generic Classes:** `TestDataStorage<T>` — type-safe container with add/get/count
+- **Generic API Wrappers:** Wrapping any data type with a status code
+
+### Chapter 30: Access Modifiers & Abstraction
+- **public / private / protected:** Controlling member visibility in classes
+- **readonly:** Constructor-initialized fields that can't be reassigned
+- **abstract Classes:** Blueprint classes that can't be instantiated directly
+- **Page Object Model:** Protected methods in base pages extended by page objects
 
 ## 🤝 Contributing
 
