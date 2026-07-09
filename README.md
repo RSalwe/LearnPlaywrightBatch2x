@@ -307,6 +307,23 @@ LEARNPLAYWRIGHTBATCH2x/
 │   ├── 221_Abstract_Class.ts         # Abstract classes — BaseTest
 │   └── README.md                     # Chapter 30 documentation
 │
+├── chapter_31_Type_Override_Decorators/  # Type Assertions, Overrides & Decorators
+│   ├── 222_Type_Assert.ts            # Type assertions with `as`
+│   ├── 223_Type_Alias_As.ts          # Type aliases with assertions
+│   ├── 224_Override.ts              # Method overriding with type safety
+│   ├── 225_IQ.ts                    # Interview questions
+│   ├── 226_Decorator.ts             # Class decorators
+│   ├── 227_Decorator_2.ts           # Property/method decorators
+│   ├── 228_Multiple_Decorator.ts    # Multiple decorators & composition
+│   └── README.md                     # Chapter 31 documentation
+│
+├── chapter_32_Playwright Fundamentals/   # Playwright Fundamentals
+│   ├── playwright.config.ts          # Playwright configuration
+│   ├── tsconfig.json                # TypeScript config for tests
+│   ├── package.json                 # Project dependencies
+│   ├── tests/example.spec.ts        # Sample Playwright test
+│   └── README.md                     # Chapter 32 documentation
+│
 ├── Demo_Practice.js                   # Practice snippets & tricky coercion examples
 │
 ├── utils.js, logger.js                # Shared utility modules
@@ -663,6 +680,21 @@ Categories covered:
 - **readonly:** Constructor-initialized fields that can't be reassigned
 - **abstract Classes:** Blueprint classes that can't be instantiated directly
 - **Page Object Model:** Protected methods in base pages extended by page objects
+
+### Chapter 31: Type Override, Assertions & Decorators
+- **Type Assertions:** `as` keyword to override inferred types when you know more than the compiler
+- **Type Aliases:** `type` keyword for reusable type definitions combined with assertions
+- **Method Override:** Type-safe method signatures in derived classes
+- **Class Decorators:** `@decorator` syntax to annotate/modify class behavior
+- **Property/Method Decorators:** Decorating individual class members
+- **Decorator Composition:** Multiple decorators execute bottom-to-top; execution order matters
+
+### Chapter 32: Playwright Fundamentals
+- **Setup & Configuration:** `playwright.config.ts` with browser projects, retries, reporters
+- **Cross-browser Testing:** Run tests on Chromium, Firefox, and WebKit
+- **Auto-waiting:** Playwright waits for elements to be actionable before interacting
+- **Test Runner:** Built-in runner with fixtures, hooks, and parallel execution
+- **Assertions:** `expect()` with auto-retrying matchers for robust test assertions
 
 ## 🤝 Contributing
 
